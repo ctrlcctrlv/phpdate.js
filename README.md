@@ -5,5 +5,5 @@ My use case was so that the user configured date format in Tinyboard would be sh
 Usage example (assuming JavaScript-C as the interpreter):
 
     d = new Date(2014, 0, 21, 2, 3, 4);
-    print(date_format(d,'M/d/Y h:i:s (U)'))
-    print(date_format(d,'r'));
+    print(date(d,'M/d/Y h:i:s (U)'))
+    print(date(d,'r'));
